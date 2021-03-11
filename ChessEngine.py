@@ -325,7 +325,8 @@ class GameState():
             for i in range(1, 7):
                 square = (row + d[0]*i, col + d[1]*i)
                 if i == 1:
-                    if direction in ([1, 1])
+                    if direction in ([1, 1]):
+                        pass
 
     '''
     Function to make move and update boardstate.
